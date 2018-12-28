@@ -15,7 +15,12 @@ public class GoodsApp {
 			
 			String name = tokens[0];
 			int price = Integer.parseInt(tokens[1]);
-			
+			int amountOfStorage = Integer.parseInt(tokens[2]);
+			arrayGoods[i] = new Goods(name, price, amountOfStorage);
+		}
+		
+		for(int i=0;i<COUNT_GOODS;i++) {
+			arrayGoods[i].show();
 		}
 	}
 }
