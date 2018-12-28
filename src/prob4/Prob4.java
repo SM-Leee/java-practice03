@@ -7,6 +7,7 @@ public class Prob4 {
         String resultStr = StringUtil.concatenate( strArr );
 
         System.out.println( "결과 문자열 : " + resultStr ); 
+        
 	}
 
 }
